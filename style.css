@@ -821,6 +821,7 @@ footer {
         width: 60rem;
     }
     .section-2-para {
+        font-size: 3rem;
         width: 60rem;
     }
     .contact-details div {
@@ -832,3 +833,8 @@ footer {
     }
 }
 
+@media (max-height: 650px) {
+    .section-2-para {
+        font-size: 2.5rem;
+    }
+}
